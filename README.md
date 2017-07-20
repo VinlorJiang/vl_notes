@@ -413,3 +413,5 @@ if (modelClass) {
     // 返回模型
     return objc;
 }
+## 1. iOS UITextField中复制和粘贴为中文：
+   在plist里面Localization native development region 选择 china ，然后Localized resources can be mixed 选 YES，如果没有Localized resources can be mixed，需手动添加。另外需要注意系统设置的语言应为中文
